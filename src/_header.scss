@@ -1,0 +1,15 @@
+header {
+
+	.logo{
+		width: 160px;
+	}
+	.menu{
+		@extend .navbar-nav;
+		li{
+			@extend .nav-item;
+			a{
+				@extend .nav-link;
+			}
+		}
+	}
+}
